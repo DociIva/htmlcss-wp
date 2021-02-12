@@ -1,47 +1,85 @@
-/*GENERAL*/
+/*Gener style*/
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
-/*UIILITY*/
+  
+ 
 .container{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
+  }
 
-}
+
+/*UTILITY*/
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
+
 }
 
+/*HEADER*/
 header{
-     height: 120px;
-     background: pink;
-     margin-bottom: 40px;
+    height: 120px;   /*fake content*/
+    margin-bottom: 30px;
+    background: plum;
 }
-
-/*YOGA IMAGE*/
+/*IMAGE SECTION*/
 .yoga{
     height: 500px;
-    background: gold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    background: yellow;
 }
 
-/*LEADERSHIP*/
-.leadership{
-    
-    background: cornflowerblue;
+/*TITLE MAIN*/
+.leadership{ 
+    margin-bottom: 20px;
+    background: dodgerblue;
 }
- 
+
 .leadership .heading{
-    height: 20px;
+    height: 60px;
     background: lightblue;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+
 }
+
+/*MAIN CONTENT*/
+
+.leadership .block .sidebar,
+.leadership .block .main-content, 
+.leadership .block .widgets {
+    float: left;
+    
+}
+
+.leadership .block .sidebar,
+.leadership .block .widgets {
+
+width: 28%;
+height: 290px;
+margin-bottom: 10px; ;
+background: blue;
+}
+
+.leadership .block .main-content{
+    width: 40%;
+    height: 290px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+    background: blue;
+}
+/*FOOTER*/
+footer{
+    height: 50px;
+    background: violet;
+}
+
