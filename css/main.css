@@ -7,7 +7,8 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
   
  
@@ -27,12 +28,34 @@ body{
 
 /*HEADER*/
 header{
-    height: 120px;   /*fake content*/
     margin-bottom: 30px;
-    background: plum;
+   
 }
+
+header .brand img {
+      width: 165px;
+    }
+
+.main-menu{
+    margin-top: 40px;
+}    
+.main-menu li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+.main-menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
+
+
+
+
+
 /*IMAGE SECTION*/
-.yoga{
+.hero{
     height: 500px;
     margin-bottom: 20px;
     background: yellow;
