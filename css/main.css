@@ -9,6 +9,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    color: #858585;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 600;
+    color: black;
 }
   
  
@@ -49,6 +55,9 @@ header .brand img {
     text-transform: uppercase;
     color: #858585;
 }
+.main-menu li a:hover{
+    color: black;
+}
 
 
 
@@ -68,10 +77,10 @@ header .brand img {
 }
 
 .leadership .heading{
-    height: 60px;
-    background: lightblue;
     margin-bottom: 20px;
-
+}
+.heading h2{
+    font-size: 30px;
 }
 
 /*MAIN CONTENT*/
