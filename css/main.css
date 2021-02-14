@@ -59,21 +59,20 @@ header .brand img {
     color: black;
 }
 
-
-
-
-
 /*IMAGE SECTION*/
-.hero{
-    height: 500px;
-    margin-bottom: 20px;
-    background: yellow;
-}
+
+ .big-bn {
+     width: 1000px;
+     height: 600px;
+     background-image: url( '../img/banner.jpg');
+     margin-bottom: 20px;
+     filter: brightness(80%);
+ }  
 
 /*TITLE MAIN*/
 .leadership{ 
     margin-bottom: 20px;
-    background: dodgerblue;
+   
 }
 
 .leadership .heading{
@@ -85,6 +84,15 @@ header .brand img {
 
 /*MAIN CONTENT*/
 
+.sidebar{
+    width: 28%;
+    height: 289px;
+    margin-bottom: 10px;
+    background-image: url(../img/img-1.jpg);
+}
+
+
+
 .leadership .block .sidebar,
 .leadership .block .main-content, 
 .leadership .block .widgets {
@@ -92,14 +100,6 @@ header .brand img {
     
 }
 
-.leadership .block .sidebar,
-.leadership .block .widgets {
-
-width: 28%;
-height: 290px;
-margin-bottom: 10px; ;
-background: blue;
-}
 
 .leadership .block .main-content{
     width: 40%;
@@ -107,8 +107,10 @@ background: blue;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 10px;
-    background: blue;
+    
 }
+
+
 /*FOOTER*/
 footer{
     height: 50px;
