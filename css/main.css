@@ -67,6 +67,7 @@ header .brand img {
      background-image: url( '../img/banner.jpg');
      margin-bottom: 20px;
      filter: brightness(80%);
+     
  }  
 
 /*TITLE MAIN*/
@@ -83,37 +84,14 @@ header .brand img {
 }
 
 /*MAIN CONTENT*/
-
-.sidebar{
-    width: 28%;
-    height: 289px;
-    margin-bottom: 10px;
-    background-image: url(../img/img-1.jpg);
-}
-
-
-
-.leadership .block .sidebar,
-.leadership .block .main-content, 
-.leadership .block .widgets {
-    float: left;
     
-}
 
-
-.leadership .block .main-content{
-    width: 40%;
-    height: 290px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10px;
-    
-}
 
 
 /*FOOTER*/
-footer{
+/*footer{
     height: 50px;
+    margin-bottom: 100px;
     background: violet;
 }
-
+*/
