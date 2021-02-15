@@ -19,7 +19,7 @@ h2,h3,h4,h5{
   
  
 .container{
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
   }
 
@@ -73,17 +73,9 @@ header .brand img {
     padding-top: 500px;
     padding-left: 10px;
     background-color: rgba(170, 155, 155, 0.5);
-    
+    color: white;  
  }
- 
-
-
-
-
-
-   
   
-
 
 
 /*TITLE MAIN*/
@@ -100,8 +92,31 @@ header .brand img {
 }
 
 /*MAIN CONTENT*/
-    
+.main .leadership .block{
+    width: 1000px;
+    height: 1000px;
+    background-color: royalblue;
+ 
+}
 
+.block .sidebar{
+    float: left;
+    width: 28%;
+    border-radius: 5%;
+}
+
+.block .main-content{
+    float: left;
+    width: 38%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5%;
+}
+.block .widgets{
+    float: left;
+    width: 28%;
+    border-radius: 5%;
+}
 
 
 /*FOOTER*/
